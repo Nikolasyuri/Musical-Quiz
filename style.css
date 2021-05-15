@@ -176,7 +176,7 @@ body{
     background: #fff;
 }
 .quiz-box section .que-text{
-    text-align: center;
+    text-align: justify;
     font-size: 25px;
     font-weight: 500;
 }
