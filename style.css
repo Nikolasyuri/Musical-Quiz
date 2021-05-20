@@ -57,7 +57,8 @@ body{
 /* General active Class */
 
 .info-box.acitveInfo,
-.quiz-box.activeQuiz{
+.quiz-box.activeQuiz,
+.result-box.activeResult{
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -171,6 +172,14 @@ body{
     border-radius: 6px;
     border: 1px solid #343a40be;
 }
+.quiz-box header .timeline{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: red;
+}
+
 .quiz-box section{
     padding: 25px 30px 20px 30px;
     background: #fff;
@@ -226,6 +235,20 @@ body{
     color: #a4283a;
     border-color: #a4283a;
 }
+.option-list .option.correct{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+.option-list .option.incorrect{
+    color: #a4283a;
+    border-color: #a4283a;
+    background: #f8d7da;
+}
+.option-list .option.disabled{
+    pointer-events: none;
+}
+
 .quiz-box footer{
     display: flex;
     align-items: center;
@@ -247,6 +270,7 @@ body{
     padding-left: 0px;
 }
 .quiz-box footer .next-btn{
+    display: none;
     border: none;
     outline: none;
     cursor: pointer;
