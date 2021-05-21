@@ -114,11 +114,11 @@ function optionSelected(answer){
         console.log(userScore);
         answer.classList.add("correct");
         console.log("Resposta Correta");
-        answer.insertAdjacentHTML("beforeend", tickIcon);
+        answer.innerHTML = correctAns + tickIcon;
     }else{
         answer.classList.add("incorrect")
         console.log("Respota Incorreta")
-        answer.insertAdjacentHTML("beforeend", crossIcon);
+        answer.innerHTML = userAns + crossIcon;
 
         //Se a respota for incorreta automaticamente mostrar a resposta certa
         for (let i = 0; i < allOptions; i++) {

@@ -141,7 +141,6 @@ body{
 .quiz-box header .title{
     font-size: 20px;
     font-weight: 500;
-    
 }
 .quiz-box header .timer{
     display: flex;
@@ -213,7 +212,6 @@ body{
     color: #004085;
     background: #cce5ff;
     border-color: #b8daff;
-
 }
 .quiz-box section .option-list .option .icon{
     text-align: center;
@@ -337,7 +335,59 @@ body{
     border: 1px solid #39758F;
 }
 
-
+@media (max-width: 667px){
+    .info-box,.quiz-box,
+    .result-box{
+        width: 75%;
+    }
+    .timeline{
+        display: none;
+    }
+    .quiz-box header .title{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .quiz-box header .timer{
+        width: 220px;
+    }
+    .quiz-box header .timer .timer-cou{
+        font-size: 16px;
+        width: 27px;
+    }
+    .quiz-box header .timer .time-text,
+    .quiz-box header .timer .timer-sec{
+        font-size: 15px;
+    }
+    .quiz-box section .que-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .quiz-box section .option-list .option{
+        font-size: 16px;
+    }
+    .quiz-box footer .next-btn{
+        font-size: 16px;
+    }
+}
+@media (max-width: 497px){
+    .quiz-box header,
+    .quiz-box footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 110px;
+    }
+    .quiz-box header .title{
+        padding: 0px;
+    }
+    .quiz-box section{
+        padding: 25px 30px 0px 30px;
+        background: #fff;
+    }
+    .quiz-box footer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 
 
