@@ -86,7 +86,7 @@ nextBtn.onclick = ()=>{
 //Pegando perguntas e respostas do array
 function showQuestions(index){
     const queText = document.querySelector(".que-text")
-    let queTag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
+    let queTag = '<span>'+ queNumb + ". " + questions[index].question +'</span>';
     let optionTag = '<div class="option">'+ questions[index].options[0] +'<span></span></div>'
                     + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
                     + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'

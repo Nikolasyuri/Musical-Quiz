@@ -1,7 +1,6 @@
 //Criando um array e passando o número, questão, opções e respotas.
 let questions = [
     {
-        numb: 1,
         question: "O que é harmonia?",
         answer: "3 ou mais notas tocadas juntas", 
         options: [
@@ -12,7 +11,6 @@ let questions = [
         ]
     },
     {
-        numb: 2,
         question: "O que é melodia?",
         answer: "1 nota tocada após a outra", 
         options: [
@@ -23,7 +21,6 @@ let questions = [
         ]
     },
     {
-        numb: 3,
         question: "O que é ritmo?",
         answer: "É um padrão que se repete, que não precisa ser necessariamente harmônico ou melódico", 
         options: [
@@ -34,7 +31,6 @@ let questions = [
         ]
     },
     {
-        numb: 4,
         question: "O que é metrônomo?",
         answer: "É uma marcação feito por um tipo de relógio para marcar o tempo", 
         options: [
@@ -45,7 +41,6 @@ let questions = [
         ]
     },
     {
-        numb: 5,
         question: "O piano é um instrumento:",
         answer: "De cordas e percussivo", 
         options: [
